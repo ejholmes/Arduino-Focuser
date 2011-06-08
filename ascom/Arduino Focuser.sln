@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arduino Focuser", "Arduino Focuser.csproj", "{5ADF730A-E0FF-4341-93F4-C587E91E74EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ADF730A-E0FF-4341-93F4-C587E91E74EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADF730A-E0FF-4341-93F4-C587E91E74EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADF730A-E0FF-4341-93F4-C587E91E74EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADF730A-E0FF-4341-93F4-C587E91E74EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
