@@ -1,7 +1,12 @@
 What is it?
 ==========
 
-The purpose of this project is to provide a layer between the hardware and ASCOM driver for issuing move commands for a stepper motor, in my case it is the stepper motor for my homemade telescope focuser. This is accomplished by parsing Serial commands sent from the ASCOM Driver. When a command is received in the `: command <arg> #` format, the Messenger object is passed to the `Focuser::interpretCommand()` function, which looks at the `command` and acts accordingly.
+The Arduino Focuser is an effort to make a computer controlled focuser using an [Arduino](http://www.arduino.cc/), a [Motor Shield](http://adafruit.com/index.php?main_page=product_info&cPath=17_21&products_id=81) and a bipolar stepper motor. The project consists of the Arduino code for the firmware and also an ASCOM driver to control the focuser from any ASCOM compliant software such as [MaxIm DL](http://www.cyanogen.com/).
+
+Technical Information
+=====================
+
+Since the Arduino Focuser is based on the Arduino board, the focuser is controlled through the COM port created by the Arduino. This is accomplished by parsing serial commands sent from the ASCOM Driver. When a command is received in the `: command <arg> #` format, the Messenger object is passed to the `Focuser::interpretCommand()` function, which looks at the `command` and acts accordingly.
  
 The following commands are currently available:
 
