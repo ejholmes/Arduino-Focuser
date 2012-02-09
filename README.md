@@ -3,6 +3,15 @@ What is it?
 
 The Arduino Focuser is an effort to make a computer controlled focuser using an [Arduino](http://www.arduino.cc/), a [Motor Shield](http://adafruit.com/index.php?main_page=product_info&cPath=17_21&products_id=81) and a bipolar stepper motor. The project consists of the Arduino code for the firmware and also an ASCOM driver to control the focuser from any ASCOM compliant software such as [MaxIm DL](http://www.cyanogen.com/).
 
+Building Your Own
+-----------------
+
+1. Download an install the ASCOM driver from the [downloads page](https://github.com/ejholmes/Arduino-Focuser/downloads).
+2. Download and install the [Arduino IDE](http://arduino.cc/).
+3. Download the [source code](https://github.com/ejholmes/Arduino-Focuser).
+4. Connect your Arduino to your computer and compile and upload the firmware within the "firmware" directory in the source code.
+
+
 Technical Information
 ---------------------
 
