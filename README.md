@@ -11,6 +11,10 @@ Building Your Own
 3. Download the [source code](https://github.com/ejholmes/Arduino-Focuser).
 4. Connect your Arduino to your computer and compile and upload the firmware within the "firmware" directory in the source code.
 
+ASCOM 6
+-------
+
+The driver installer will fail if you have ASCOM 6 installed. You can use the workaround detailed at http://ascom-standards.org/FAQs/Platform5.5only.htm to get around this.
 
 Technical Information
 ---------------------
